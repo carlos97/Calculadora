@@ -21,6 +21,7 @@ public class Principal {
                 cal.setY(myS.nextDouble());
                 cal.sumar();
                 System.out.println(cal.getR());
+                break;
             case 2:
                 System.out.println("Ingrese X:");
                 cal.setX(myS.nextDouble());
@@ -28,16 +29,19 @@ public class Principal {
                 cal.setY(myS.nextDouble());
                 cal.restar();
                 System.out.println(cal.getR());
+                break;
             case 3:
                 System.out.println("Ingrese X:");
                 cal.setX(myS.nextDouble());
                 trigC.seno();
                 System.out.println(trigC.getR());
+                break;
             case 4:
                 System.out.println("Ingrese X:");
                 cal.setX(myS.nextDouble());
                 trigC.coseno();
                 System.out.println(trigC.getR());
+                break;
         }      
     }
 }
